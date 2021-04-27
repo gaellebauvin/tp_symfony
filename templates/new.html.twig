@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {{ form_start(form) }}
+    <div class="row">
+        <div class="container">
+            <h2>Formulaire d'inscription à la newsletter</h2>
+            {{ form_widget(form.name) }}
+            {{ form_widget(form.email) }}
+            <button type="submit">Enregister</button>
+        </div>
+    </div>
+    {{ form_end(form) }}
+{% endblock %}
