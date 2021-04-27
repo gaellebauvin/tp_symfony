@@ -28,7 +28,7 @@ class Newsletter
 
     public function setEmail(string $email): self
     {
-        $this->name = $email;
+        $this->email = $email;
 
         return $this;
     }

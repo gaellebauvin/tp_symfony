@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7967cb68-6ae1-45b6-9836-7bca6478788c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/NewsletterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Newsletter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/NewsletterType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/emails/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tp_symfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp_symfony.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/NewsletterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/NewsletterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Newsletter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +131,8 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1rhN3aqNkxzvwWKcFW48vdLhuX8" />
@@ -156,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619424162796</updated>
       <workItem from="1619424163882" duration="1261000" />
-      <workItem from="1619514326328" duration="12010000" />
+      <workItem from="1619514326328" duration="15944000" />
     </task>
     <servers />
   </component>
