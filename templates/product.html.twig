@@ -1,10 +1,31 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class="row">
-        <div class="container">
-            <h2>Page de présentation d'un produit innovant</h2>
+    <div class="container-fluid" id="home-page">
+        <div class="row py-3">
+            <div class="col-9">
+                <img src="{{ asset('/build/logo.svg') }}" alt="Logo Portail"/>
+            </div>
+            <div class="col-3 d-flex flex-wrap">
+                <a class="p-2 text-white" href="#">Accueil</a>
+                <a class="p-2 text-white" href="#propos">A propos</a>
+                <a class="p-2 text-white precommande" href="{{ path('precommande_form') }}">Précommander</a>
+            </div>
+               <div class="col-12 title px-5">
+                <h1>Voyager partout en quelques secondes ?</h1>
+                <p>C'est possible grâce au portal gun !</p>
+            </div>
+            <div class="col-12 pb-5 d-flex description align-items-center flex-wrap">
+                <div class="col-6">
+                    <img src="{{ asset('/build/portal-gun-representation.svg') }}" alt="Présentation du portal gun"/>
+                </div>
+                <div class="col-6" id="propos">
+                    <h2 class="pb-3">Le portal gun, c'est quoi ?</h2>
+                    <p class="pb-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et</p>
+                    <a class="precommande-noir" href="{{ path('precommande_form') }}">Précommander</a>
+                </div>
+            </div>
         </div>
-        <a href="{{ path('precommande_form') }}">Précommander</a>
     </div>
 {% endblock %}

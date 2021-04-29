@@ -2,12 +2,24 @@
 
 {% block body %}
     {{ form_start(form) }}
-    <div class="row">
-        <div class="container">
-            <h2>Formulaire d'inscription à la newsletter</h2>
-            {{ form_widget(form.name) }}
-            {{ form_widget(form.email) }}
-            <button type="submit">Enregister</button>
+    <div class="container-fluid">
+        <div class="row py-3 align-items-center w-75 m-auto">
+            <div class="col-6">
+                <img class="pb-3" src="{{ asset('/build/logo-noir.svg') }}">
+                <h2>Formulaire d'inscription à la newsletter</h2>
+                <p>Pour suivre toutes les actualités concernant notre portail gun, n'attendez plus ! Inscrivez-vous à notre Newsletter ! Il sera bientôt disponible</p>
+            </div>
+            <div class="col-6 py-5">
+                <div class="pt-5">
+                <label>Nom</label>
+                {{ form_widget(form.name) }}
+                </div>
+                <div class="py-2">
+                <label>Adresse mail</label>
+                {{ form_widget(form.email) }}
+                </div>
+                <button class="precommande-noir my-4" type="submit">S'inscrire</button>
+            </div>
         </div>
     </div>
     {{ form_end(form) }}
