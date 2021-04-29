@@ -1,0 +1,60 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  font-family: "Helvetica";
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input {
+  border-radius: 7px!important;
+}
+
+#home-page {
+  background-image: url("/assets/images/home-image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 115vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+
+  h1, p {
+    color: white;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h1 {
+    width: 45%;
+    font-size: 60px;
+  }
+}
+
+.description {
+  margin-top: 30%;
+}
+
+.precommande {
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 7px 15px;
+}
+
+.precommande-noir {
+  color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 7px 15px;
+  background: white;
+}
